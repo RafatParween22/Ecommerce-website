@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Link from "next/link"
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react"
@@ -16,3 +17,17 @@ export default function Home() {
     </>
   )
 }
+=======
+import React from 'react';
+import Nav from './nav.js';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+function Main() {
+  return (
+    <>
+      <Nav/>
+    </>
+  )
+}
+
+export default Main;
+>>>>>>> bf4706a3d6934176b90aacc5a30028b8a6e89843
