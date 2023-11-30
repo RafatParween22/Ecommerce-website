@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *body {
   background-color:red;
   color: black;
@@ -29,19 +29,21 @@
 }
 
 .header {
-  background-color: red;
   border: 2px solid black; 
-  margin: 40px;
-  
+  margin-left: 60px;
+  margin-right: 60px;
+ 
+ 
 }
+
 
 .clothsbox,
 .Electronicsbox,
 .jewellerysbox,
 .shoesbox {
-  padding: 10px;
-  margin-left: 80px;
+  margin-left: 100px;
   display: inline-block;
+
   
 }
 
@@ -59,7 +61,7 @@ p {
   color:black;
   font-weight: bold;
   text-align: center;
- 
+  
   
  }
 

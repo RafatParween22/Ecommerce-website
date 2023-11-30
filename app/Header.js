@@ -82,7 +82,7 @@ const Header = () => {
                     <img
                       src="https://auto.webindia123.com/bike/tvsapache_rr310/ima.jpg"
                       alt="Electronics Image"
-                      style={{ width: '110px', height: '70px' ,marginRight:'0px'}}
+                      style={{ width: '110px', height: '70px' }}
                     />
                   </div>
                   <p>Two Wheelers</p>
@@ -96,7 +96,7 @@ const Header = () => {
                     <img
                       src="https://www.shutterstock.com/shutterstock/photos/154376501/display_1500/stock-vector-kitchen-washing-machine-icebox-gas-stove-dishwasher-154376501.jpg"
                       alt="Electronics Image"
-                      style={{ width: '80px', height: '70px',magrinLeft:'25px' }}
+                      style={{ width: '70px', height: '60px' }}
                     />
                   </div>
                   <p>Appliances</p>
