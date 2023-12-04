@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Electronics() {
+function Appliances() {
   return (
     <div className='appliances'>
       appliances page
@@ -8,4 +8,4 @@ function Electronics() {
   )
 }
 
-export default Electronics
+export default Appliances;

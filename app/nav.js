@@ -27,27 +27,27 @@ function Nav() {
             <div style={{ width: 20 }}></div>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#" style={{ color: '#fff' }}>
+                <a className="nav-link active" aria-current="page" href="/home" style={{ color: '#fff' }}>
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: '#fff' }}>
+                <a className="nav-link" href="/listing" style={{ color: '#fff' }}>
                   Product-Listing
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: '#fff' }}>
+                <a className="nav-link" href="/detailed" style={{ color: '#fff' }}>
                   Product-Detailed
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: '#fff' }}>
+                <a className="nav-link" href="/customer" style={{ color: '#fff' }}>
                   Customer-informations
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: '#fff' }}>
+                <a className="nav-link" href="/cart" style={{ color: '#fff' }}>
                   Add-Cart
                 </a>
               </li>

@@ -3,6 +3,10 @@
   background-color:red;
   color: black;
 }
+.box{
+  border: 2px solid red;
+  height: 100px;
+}
 
 .cloths {
   background-color: yellow;
@@ -26,37 +30,30 @@
   background-color: green;
   height: 1000px;
   width: 2000px;
+  
 }
 
 .header {
   border: 2px solid black; 
   margin-left: 60px;
   margin-right: 60px;
+  margin-top: -30px;
  
  
 }
 
 
-.clothsbox,
-.Electronicsbox,
-.jewellerysbox,
-.shoesbox {
+.clothsbox
+
+ {
   margin-left: 100px;
   display: inline-block;
+  margin-top :10px;
 
   
 }
 
-.shoesbox {
-  height: 90px;
-  width: 90px;
-  margin-bottom: 12px;
-}
 
-.Electronicsbox {
-  height: 70px;
-  width: 80px;
-}
 p { 
   color:black;
   font-weight: bold;
@@ -65,8 +62,34 @@ p {
   
   
  }
-
+.footer-bottom{
+        margin-top: 3rem;
+      
+}
 .search{
-    margin-left:330px;
+    margin-left:200px;
+}
+.main-container{
+    text-align:white;
+}
+.box{
+  border: 1px solid red;
+  height:3000px;
+  width:100%;
+  margin-top: 15px;
+}
+
+
+.carousel-inner{
+  height: 500px;
+  width: 50px;
+  margin: auto;
+}
+
+.carousel{
+  border: 2px solid black; 
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top:13px;
 }
 

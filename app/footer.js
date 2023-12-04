@@ -1,67 +1,70 @@
 import React from 'react';
 
-const Footer = () => {
-  return (
-    <>
-      
-<footer className="text-center text-lg-start bg-body-tertiary text-muted">
-  {/* Section: Social media */}
-  <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    {/* Left */}
-    <div className="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    {/* Left */}
+function Footer() {
+    return (
+       <div className="main-footer">
+            <div className="p-3 mb-2 bg-dark bg-gradient text-white ">
+                <div className="row ">
 
-    {/* Right */}
-    <div>
-      <a href="https://www.facebook.com/" className="me-4 text-reset" aria-label="Facebook">
-        <i className="fab fa-facebook-f" aria-hidden="true"></i>
-      </a>
-      <a href="https://twitter.com/" className="me-4 text-reset" aria-label="Twitter">
-        <i className="fab fa-twitter" aria-hidden="true"></i>
-      </a>
-      <a href="https://plus.google.com/" className="me-4 text-reset" aria-label="Google">
-        <i className="fab fa-google" aria-hidden="true"></i>
-      </a>
-      <a href="https://www.instagram.com/" className="me-4 text-reset" aria-label="Instagram">
-        <i className="fab fa-instagram" aria-hidden="true"></i>
-      </a>
-      <a href="https://www.linkedin.com/" className="me-4 text-reset" aria-label="LinkedIn">
-        <i className="fab fa-linkedin" aria-hidden="true"></i>
-      </a>
-      <a href="https://github.com/" className="me-4 text-reset" aria-label="GitHub">
-        <i className="fab fa-github" aria-hidden="true"></i>
-      </a>
-    </div>
-    {/* Right */}
-  </section>
-  {/* Section: Social media */}
+                    <div className="col-md-3 col-sm-6">
+                        <h5 className="text-black #757575">ABOUT</h5>
+                        <ul className="list-unstyled">
+                            <li>Contact us</li>
+                            <li>About us</li>
+                            <li>Careers</li>
+                            <li>Ecommerce Stories</li>
+                            <li>Press</li>
+                            <li>Ecommerce Wholesale</li>
+                            <li>Corporate Information</li>
+                        </ul>
+                    </div>
 
-  {/* Section: Links  */}
-  <section className="">
-    <div className="container text-center text-md-start mt-5">
-      {/* Grid row */}
-      <div className="row mt-3">
-        {/* Grid column */}
-        {/* ... Your existing code for company info, products, useful links, and contact */}
-      </div>
-      {/* Grid row */}
-    </div>
-  </section>
-  {/* Section: Links  */}
+                    <div className="col-md-3 col-sm-6">
+                        <h5 className="text-black #757575">HELP</h5>
+                        <ul className="list-unstyled">
+                            <li>Payments</li>
+                            <li>Shipping</li>
+                            <li>Cancellation & Returns</li>
+                            <li>FAQ</li>
+                            <li>Press</li>
+                            <li>Report Infringement</li>
+                        </ul>
+                    </div>
 
-  {/* Copyright */}
-  <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-    © 2021 Copyright:
-    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  {/* Copyright */}
-</footer>
+                    <div className="col-md-3 col-sm-6">
+                        <h5 className="text-black #757575">CONSUMER POLICY</h5>
+                        <ul className="list-unstyled">
+                            <li>Cancellation & Returns</li>
+                            <li>Terms of Use</li>
+                            <li>Security</li>
+                            <li>Privacy</li>
+                            <li>Sitemap</li>
+                            <li>Grievance Redressal</li>
+                            <li>EPR compliance</li>
+                        </ul>
+                    </div>
 
+                    <div className="col-md-3 col-sm-6">
+                        <h5 className="text-black #757575">SOCIAL</h5>
+                        <ul className="list-unstyled">
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>YouTube</li>
+                            <li>Instagram</li>
+                           
+                        </ul>
+                    </div>
 
-    </>
-  );
-};
+                </div>
+
+                <div className="footer-bottom ">
+                <p className="text-xs-center text-white">
+                &copy;{new Date().getFullYear()}City Guide App - All Rights Reserved
+                </p>
+                </div>
+            </div>
+        </div>
+    );
+}
 
 export default Footer;
