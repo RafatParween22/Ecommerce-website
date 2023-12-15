@@ -3,10 +3,7 @@
   background-color:red;
   color: black;
 }
-.box{
-  border: 2px solid red;
-  height: 100px;
-}
+
 
 .cloths {
   background-color: yellow;
@@ -33,11 +30,9 @@
   
 }
 
-.header {
+.container-fluid {
   border: 2px solid black; 
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: -30px;
+  
  
  
 }
@@ -93,3 +88,25 @@ p {
   margin-top:13px;
 }
 
+.card:hover {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
+.card img {
+  object-fit: cover;
+  height: 100%; 
+  width: 100%; 
+}
+
+.listing {
+  background-color: pink;
+  height: 1000px;
+  width: 2000px;
+}
+.custom-right-align {
+  text-align: right;
+}
+
+.custom-right-align-text {
+  font-weight: 1000;
+  margin-right: 50px; 
+}

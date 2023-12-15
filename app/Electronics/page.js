@@ -1,11 +1,13 @@
-import React from 'react'
+"use client";
+import React from 'react';
+import BodySection from './Electronic.js';
 
 function Electronics() {
   return (
-    <div className='Electronics'>
-      Electronics page
-    </div>
-  )
+    <>
+      <BodySection />
+    </>
+  );
 }
 
-export default Electronics
+export default Electronics;
