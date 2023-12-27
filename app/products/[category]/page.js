@@ -1,12 +1,12 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Link from 'next/link';
+
 
 function Page({ params }) {
   const [productDetails, setProductDetails] = useState([]);
 
-  const fetchProductDetails = () => {
+	const fetchProductDetails = () => {
     fetch(`https://fakestoreapi.com/products/category/${params.category}`)
       .then((res) => res.json())
       .then((data) => {
