@@ -1,6 +1,7 @@
+"use client"
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './globals.css';
+// import './globals.css';
 
 const AllCategories = () => {
   // State to store all products
@@ -52,16 +53,6 @@ const AllCategories = () => {
       </div>
     </div>
   );
-  const categories = ['Electronics', 'Jewelry', 'Clothing'];  
-
-  return (
-    <div>
-      {categories.map(renderCategoryProducts)}
-
-    </div>
-  );
 };
-
+  
 export default AllCategories;
-navigator
-

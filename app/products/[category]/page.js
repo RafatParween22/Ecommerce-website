@@ -1,17 +1,21 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Link from 'next/link';
+
 
 function Page({ params }) {
   const [productDetails, setProductDetails] = useState([]);
 
+<<<<<<< HEAD
   const [searchValue, setSearchValue] = useState('');
   const [filterValue, setFilterValue] = useState(0);
   const [minFilter, setMinFilter] = useState();
   const [maxFilter, setMaxFilter] = useState();
 
   const fetchProductDetails = () => {
+=======
+	const fetchProductDetails = () => {
+>>>>>>> 7b5dd917707ffee8f73a774c5022e2b0414a610f
     fetch(`https://fakestoreapi.com/products/category/${params.category}`)
       .then((res) => res.json())
       .then((data) => {
