@@ -1,52 +1,44 @@
 
-*body {
-  background-color:red;
-  color: black;
-}
-
-
-.cloths {
-  background-color: yellow;
-  height: 1000px;
-  width: 2000px;
-}
-
-.jewellery {
-  background-color: red;
-  height: 1000px;
-  width: 2000px;
-}
-
-.Electronics {
-  background-color: green;
-  height: 800px; 
-  width: 1500px; 
-}
-
-.shoes {
-  background-color: green;
-  height: 1000px;
-  width: 2000px;
-  
-}
-
 .container-fluid {
-  border: 2px solid black; 
+  margin-top: 100px;
+} 
+/* 
+.first-row {
+  border: 2px solid rgb(243, 8, 8);
+} */
+
+.col-first{
+  /* border: 2px solid rgb(243, 8, 8); */
+  margin-right: 20px;
   
+  
+}
+/* .col-first:hover{
+  border: 2px solid rgb(255, 249, 249);
+
+} */
+
+
+
+
+.row-colum{
+  height: auto;
  
  
 }
-
-
-.clothsbox
-
- {
-  margin-left: 100px;
-  display: inline-block;
-  margin-top :10px;
-
-  
+.card{
+  box-shadow:  0 8px 10px 0 rgba(0,0,0,0.2);
 }
+.mask:hover { opacity: 0.5; }
+
+.heder{
+  height: 160px;
+  border-radius: 12px 0px 0px 12px;
+  background: #3F0DA9;
+  
+
+}
+<<<<<<< HEAD
 .style{
 	float: left;
 }
@@ -172,3 +164,27 @@ p {
 
 
 
+=======
+.text{
+  color: var(--Logo---Light, #FBE9A9);
+  font-family: Inika;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 120%;  */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  padding-top: 60px;
+  margin-left: 500px;
+}
+.heder > p{
+  color: var(--Logo---Light, #FBE9A9);
+  font-family: Inika;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; 
+  letter-spacing: -0.4px;
+  margin-left: 505px;
+}
+>>>>>>> 93e8dccb9f646884a274cd4fd7318919b1345791
