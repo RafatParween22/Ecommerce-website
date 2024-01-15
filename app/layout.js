@@ -1,7 +1,5 @@
 import { Inter } from 'next/font/google'
-import Nav from './nav.js';
 import './globals.css'
-import Footer from './footer.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -17,9 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={inter.className}> 
-      <div><Nav/></div>
       {children}</body>
-      {/* <div><Footer/></div> */}
     </html>
   )
 }
