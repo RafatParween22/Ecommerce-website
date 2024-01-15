@@ -47,7 +47,12 @@
 
   
 }
-
+.style{
+	float: left;
+}
+.dropdown{
+	float: left;
+}
 
 p { 
   color:black;
@@ -160,6 +165,9 @@ p {
   .product-authors {
 	font-size: 16px;
 	color: #888;
+  }
+  .search{
+	margin-left: 10px;
   }
 
 

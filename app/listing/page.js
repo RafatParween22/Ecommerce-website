@@ -1,7 +1,5 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import './globals.css';
 
 const AllCategories = () => {
   // State to store all products
